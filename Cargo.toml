@@ -1,0 +1,27 @@
+[package]
+name = "cortex-m-systick-countdown"
+version = "0.1.0"
+authors = ["Fiona Hopkins <fiona@draughtleaders.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/fionawhim/cortex-m-systick-countdown"
+categories = ["embedded", "no-std", "hardware-support"]
+keywords = ["atsamd", "timer", "delay"]
+description = "Wrapper around Cortex-M SysTick to provide multiple concurrent CountDown values."
+
+[lib]
+test = false
+bench = false
+
+[dependencies]
+cortex-m = "0.6.0"
+embedded-hal = {version = "~0.2"}
+nb = "0.1.2"
+void = { version = "1.0.2", default-features = false }
+
+[dev-dependencies]
+cortex-m-rt = "0.6.0"
+cortex-m-semihosting = "0.3.0"
+panic-halt = "0.2.0"
+
+
