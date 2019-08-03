@@ -7,4 +7,4 @@ matrix:
   allow_failures:
     - rust: nightly
 before_install:
-  - rustup target add thumbv7em-none-eabi
+  - rustup target add thumbv7m-none-eabi

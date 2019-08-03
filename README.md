@@ -1,5 +1,9 @@
 # cortex-m-systick-countdown
 
+[![Crates.io](https://img.shields.io/crates/v/cortex-m-systick-countdown.svg)](https://crates.io/crates/cortex-m-systick-countdown)
+[![rustdoc](https://docs.rs/cortex-m-systick-countdown/badge.svg)](https://docs.rs/cortex-m-systick-countdown/)
+[![Travis Build Status](https://api.travis-ci.org/fionawhim/cortex-m-systick-countdown.svg?branch=develop)](https://travis-ci.org/fionawhim/cortex-m-systick-countdown/)
+
 This crate provides `PollingSysTick`, a wrapper around the Cortex-M SysTick
 peripheral that makes it easy to get values of the
 `embedded_hal::timer::CountDown` trait.
@@ -9,7 +13,7 @@ lets you have multiple separate `CountDown` values at once.
 
 ## Documentation
 
-See the Rust documentation.
+See the [rustdoc on Docs.rs](https://docs.rs/cortex-m-systick-countdown/).
 
 ## Development
 
